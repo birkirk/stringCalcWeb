@@ -1,1 +1,1 @@
-web: build/install/calcAPI/bin/calcAPI
+web: build/install/calcApi/bin/calcApi
