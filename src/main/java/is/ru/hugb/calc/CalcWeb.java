@@ -6,7 +6,7 @@ public class CalcWeb {
     public static void main(String[] args) {
         port(getHerokuPort());
         get("/", (req, res) -> {
-            return "No route specified. Try /add/1,2";
+            return renderTemplate("../html/tictactoe/index.html");
         });
         get(
             "/add/:input",
